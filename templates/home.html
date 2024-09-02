@@ -1,0 +1,66 @@
+{% extends 'base.html' %}
+
+{% block titles %}
+    <div class="jumbotron jumbotron-fluid"style="background-color:#aaffff">
+        <div class="container">
+		
+            <h1 id="FutureSee" class="display-4">Welcome to CheapTech</h1>
+            <p class="lead" style="color: #083c11;">WHERE YOU CAN GET REFURBISHED TECH FOR CHEAP!!!!</p>
+        </div>
+    </div>
+{% endblock %}
+
+{% block results %}
+<body>
+<div style="margin: 100; !important">
+<h3>Products we offer!!!</h3>
+<br>
+ <br>
+<div class="d-flex justify-content-between">
+    <a href="{{url_for('display_products')}}"">
+        <div class="card" style="width: 13rem;">
+          <img class="card-img-top" src="/static/pc.jpg" alt="image of Buffalo grass">
+          <div class="card-body">
+            <p class="card-text">PCs</p>
+          </div>
+        </div>
+    </a>
+    <a href="{{url_for('display_products')}}">
+      <div class="card" style=" width: 13rem;">
+          <img class="card-img-top" src="/static/pho.jpg" alt="image of Perennial Ryegrass">
+          <div class="card-body">
+            <p class="card-text"> Phones</p>
+          </div>
+        </div>
+      </a>
+      <a href="{{url_for('display_products')}}">
+        <div class="card" style="width: 13rem;">
+          <img class="card-img-top" src="/static/tab.jpg" alt="Image of Kikuyu grass">
+          <div class="card-body">
+            <p class="card-text">Tablets</p>
+          </div>
+        </div>
+      </a>
+      <a href="{{url_for('display_products')}}">
+        <div class="card" style="width: 13rem;">
+          <img class="card-img-top" src="/static/mon.jpg" alt="Image of Zeon Zoysia Grass Sod: Soft, Cushion-Like Turf ">
+          <div class="card-body">
+            <p class="card-text">Montitors</p>
+          </div>
+        </div>
+      </a>
+  </div>
+  <br>
+ <br>
+
+ <br>
+ <br>
+<h3>About the Business:</h3><br>
+At CheapTech, we believe that high-quality technology should be accessible to everyone. That's why we specialize in offering premium refurbished tech at unbeatable prices. Each product we sell undergoes a rigorous refurbishment process, ensuring it meets the highest standards of performance and reliability. Whether you're looking for the latest gadgets or reliable older models, our wide selection has something for everyone. By choosing refurbished, you're not only saving money but also helping to reduce e-waste and protect the environment. Trust CheapTech to deliver exceptional value without compromising on quality.
+
+</div>
+</body>
+{% endblock %}
+
+	   
+ 

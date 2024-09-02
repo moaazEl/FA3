@@ -1,0 +1,52 @@
+{% extends 'base.html' %}
+
+{% block titles %}    <title>Login</title>
+ 
+  <body>
+ <div class="jumbotron jumbotron-fluid">
+  <div class="container">
+    <h1 class="display-4">Login</h1>
+	   {%if customers%}
+			{%for customers in customers%}
+			<tr>
+				<h2><td>Welcome - {{customers[0]}}</td></h2>
+			</tr>   
+			{%endfor%}
+	
+	   {%endif%}
+    
+  </div>
+  
+</div>
+ {% endblock %}
+
+{% block results %}
+<!doctype html>
+<html lang="en">
+  <head>
+
+   <form class="p-3" action="/login" method = "POST">
+  <div class="form-group">
+    <label for="email">Email</label>
+    <input type="text" class="form-control" id="email" aria-describedby="email" name = "email">
+  </div>
+  <div class="form-group">
+    <label for="exampleInputpassword1">Customer ID number</label>
+    <input type="customer_id" class="form-control" id="customer_id" name = "customer_id">
+  </div>
+  <div style="text-align: center;">
+    <div class="form-group form-check">
+	  <label class="form-check-label" for="exampleCheck1"> Terms and Conditions </label>
+	  <input type="checkbox" class="form-check-input" id="checkbox1" name="checkbox1" style="margin-left: 10px;">
+    
+  </div>
+  <button type="submit" class="btn btn-primary"><h2>Login</h2></button>
+  
+  <li class="nav-item active">
+  <a class="nav-link" href="{{url_for('register')}}">Don't have an account yet? Click here to sign up!<span class="sr-only">(current)</span></a>
+  </li>
+</div>
+</form>   
+</body>
+</html>
+{% endblock %}

@@ -1,0 +1,50 @@
+{% extends 'base.html' %}
+{% block titles %}
+   <div class="jumbotron jumbotron-fluid"style="background-color:#aaffff">
+        <div class="container">
+		
+            <h1 id="FutureSee" class="display-4">Sales</h1>
+            <p class="lead">Add Sale details </p>
+        </div>
+    </div>
+{% endblock %}
+
+{% block results %}
+
+<html>
+	<body>
+	
+		<form action = "{{ url_for('add_sales') }}" method = "POST">
+		 <h3> Add sales details</h3>
+		 <label for="customers">Choose customer:</label>
+        <select name="customer" id="customer">
+            {% for customer in customers %}
+                <option value="{{ customer[0] }}">{{ customer[2] }} {{customer[3]}} {{customer[5]}}</option>
+            {% endfor %}
+        </select>
+        
+        <br><br>
+
+        <label for="products">Choose product:</label>
+        <select name="product" id="product">
+            {% for product in products %}
+                <option value="{{ product[0] }}">{{ product[1] }} ${{"%0.2f" | format(product[4] | float) }} </option>
+            {% endfor %}
+        </select>
+		
+        <label for="date">Date of sale:</label>
+        <input type="date" id="date" name="date" required>
+		 
+
+         <label for="fprice">Total Price of sale:</label>
+        <input type="float" id="fprice" name="fprice" required>
+		 
+
+         <label for="trev">Total Revenue from sale:</label>
+        <input type="float" id="trev" name="trev" required>
+		 <input type = "submit" value = "submit" /></br>
+		</form>
+
+	</body>
+</html>
+{% endblock %}

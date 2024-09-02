@@ -1,0 +1,38 @@
+{% extends 'base.html' %}
+{% block titles %}
+   <div class="jumbotron jumbotron-fluid"style="background-color:#aaffff">
+        <div class="container">
+		
+            <h1 id="FutureSee" class="display-4">Products</h1>
+            <p class="lead"></p>
+        </div>
+    </div>
+{% endblock %}
+
+{% block results %}
+
+<html>
+	<body>
+	
+		<form action = "{{ url_for('insert_product') }}" method = "POST" class="form-group">
+		 <h3> Insert new product</h3>
+		
+	
+		 Product Name<br>
+		 <input type = "text" name = "product_name" /></br>
+		
+		 Specificaitions<br>
+		 <input type = "text" name = "specs" /></br>
+		 Revenue<br>
+		 <input type = "text" name = "rev" /></br>
+		 
+		 Retail Price<br>
+		 <input type = "text" name = "retailprice" /></br>
+		<br>
+		<br>
+		 <input class="btn btn-primary" type = "submit" name = "INSERT" /></br>
+		</form>
+
+	</body>
+</html>
+{% endblock %}

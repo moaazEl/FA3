@@ -1,0 +1,70 @@
+{% extends 'base.html' %}
+
+{% block titles %}    <title>Register</title>
+ <!doctype html>
+<html lang="en">
+
+  <head>
+  
+  </head>
+
+  <body>
+ <div class="jumbotron jumbotron-fluid">
+  <div class="container">
+    <h1 class="display-4">Registration Form</h1>
+    <p class="lead">testing</p>
+  </div>
+  
+</div>
+ {% endblock %}
+
+{% block results %}
+
+   <form action="/register" method = "POST">
+  
+  <div class="form-group">
+    <label for="first">First Name</label>
+    <input type="text" class="form-control" id="first" name = "first">
+  </div>
+  <div class="form-group">
+    <label for="surname">Surname</label>
+    <input type="text" class="form-control" id="last" name = "last">
+  </div>
+  
+  <div class="form-group">
+    <label for="dob">DOB (optional)</label>
+    <input type="text" class="form-control" id="dob" name = "dob">
+  </div>
+  <div class="form-group">
+    <label for="email">Email</label>
+    <input type="text" class="form-control" id="email" name="email" >
+  </div>
+  <div class="form-group">
+    <label for="phone">Phone number</label>
+    <input type="text" class="form-control" id="phone" name = "phone">
+  </div>
+  <div class="form-group">
+    <label for="address">Postal address</label>
+    <input type="text" class="form-control" id="address" name = "address">
+  </div>
+  <div class="form-group form-check">
+    <input type="checkbox" class="form-check-input" id="exampleCheck1">
+    <label class="form-check-label" for="exampleCheck1"> Agree to terms and conditions </label>
+  </div>
+  <button type="submit" class="btn btn-primary">Submit</button>
+</form>   
+    {%if users%}
+    <div class="users" style="margin-left:20%">
+      <h2>Registered Users List</h2>
+      <table style="width:100%;">
+        {%for user in users%}
+          <tr>
+            <td>{{user[0]}}</td>
+          </tr>   
+        {%endfor%}
+      </table>
+    </div>
+    {%endif%}
+</body>
+</html>
+{% endblock %}
