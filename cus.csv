@@ -1,0 +1,61 @@
+customer_id,first,surname,dob,phone#,email,address,past_sales
+0001,John,Doe,15-06-1985,0412-345-678,"123 Elm Street, Sydney, NSW",,john.doe@example.com
+0002,Jane,Smith,20-02-1990,0413-567-890,"456 Oak Avenue, Melbourne, VIC",,jane.smith@example.com
+0003,Emily,Jones,03-11-1978,0414-678-901,"789 Pine Road, Brisbane, QLD",,emily.jones@example.com
+0004,Michael,Brown,25-09-1982,0415-789-012,"101 Maple Lane, Perth, WA",,michael.brown@example.com
+0005,Sarah,Davis,12-01-1995,0416-890-123,"202 Birch Blvd, Adelaide, SA",,sarah.davis@example.com
+0006,David,Wilson,30-07-1988,0417-901-234,"303 Cedar St, Hobart, TAS",,david.wilson@example.com
+0007,Laura,Taylor,18-04-1975,0418-012-345,"404 Elm Street, Canberra, ACT",,laura.taylor@example.com
+0008,James,Anderson,05-12-1989,0419-123-456,"505 Spruce Dr, Darwin, NT",,james.anderson@example.com
+0009,Olivia,Thomas,22-08-1992,0420-234-567,"606 Fir Court, Gold Coast, QLD",,olivia.thomas@example.com
+0010,Daniel,Jackson,14-03-1984,0421-345-678,"707 Redwood Ave, Sunshine Coast, QLD",,daniel.jackson@example.com
+0011,Sophia,White,11-10-1991,0422-456-789,"808 Willow Way, Newcastle, NSW",,sophia.white@example.com
+0012,Matthew,Harris,30-05-1980,0423-567-890,"909 Poplar Dr, Wollongong, NSW",,matthew.harris@example.com
+0013,Mia,Martin,19-12-1986,0424-678-901,"1010 Palm St, Central Coast, NSW",,mia.martin@example.com
+0014,Joshua,Thompson,07-07-1979,0425-789-012,"1212 Oak Street, Cairns, QLD",,joshua.thompson@example.com
+0015,Isabella,Garcia,21-04-1993,0426-890-123,"1313 Maple Ave, Toowoomba, QLD",,isabella.garcia@example.com
+0016,Christopher,Martinez,17-09-1987,0427-901-234,"1414 Pine Ln, Townsville, QLD",,christopher.martinez@example.com
+0017,Ava,Rodriguez,30-11-1994,0428-012-345,"1515 Cedar Rd, Launceston, TAS",,ava.rodriguez@example.com
+0018,Ethan,Lopez,26-06-1990,0429-123-456,"1616 Birch Blvd, Albury, NSW",,ethan.lopez@example.com
+0019,Charlotte,Gonzalez,03-01-1985,0430-234-567,"1717 Fir St, Ballarat, VIC",,charlotte.gonzalez@example.com
+0020,William,Wilson,15-05-1983,0431-345-678,"1818 Spruce Dr, Bendigo, VIC",,william.wilson@example.com
+0021,Amelia,Brown,12-02-1996,0432-456-789,"1919 Elm St, Dubbo, NSW",,amelia.brown@example.com
+0022,Alexander,Miller,23-11-1981,0433-567-890,"2020 Oak Ave, Wagga Wagga, NSW",,alexander.miller@example.com
+0023,Harper,Lee,16-08-1992,0434-678-901,"2121 Maple Dr, Orange, NSW",,harper.lee@example.com
+0024,Benjamin,Walker,09-03-1989,0435-789-012,"2222 Pine Ln, Shepparton, VIC",,benjamin.walker@example.com
+0025,Ella,Hall,21-07-1995,0436-890-123,"2323 Cedar St, Mildura, VIC",,ella.hall@example.com
+0026,Liam,Young,12-12-1986,0437-901-234,"2424 Birch Blvd, Coffs Harbour, NSW",,liam.young@example.com
+0027,Grace,Allen,08-05-1994,0438-012-345,"2525 Fir Ct, Tamworth, NSW",,grace.allen@example.com
+0028,Noah,Hernandez,19-09-1982,0439-123-456,"2626 Spruce St, Naracoorte, SA",,noah.hernandez@example.com
+0029,Chloe,King,11-11-1991,0440-234-567,"2727 Elm Ave, Griffith, NSW",,chloe.king@example.com
+0030,James,Scott,27-04-1987,0441-345-678,"2828 Oak Lane, Bairnsdale, VIC",,james.scott@example.com
+0031,Ella,Moore,10-03-1984,0442-456-789,"2929 Maple St, Warrnambool, VIC",,ella.moore@example.com
+0032,Lucas,Taylor,22-06-1992,0443-567-890,"3030 Cedar Ave, Horsham, VIC",,lucas.taylor@example.com
+0033,Zoe,Wilson,04-12-1985,0444-678-901,"3131 Fir Ct, Mount Gambier, SA",,zoe.wilson@example.com
+0034,Mason,Clark,15-08-1993,0445-789-012,"3232 Pine Ln, Goulburn, NSW",,mason.clark@example.com
+0035,Sophie,Wright,09-01-1990,0446-890-123,"3333 Elm St, Echuca, VIC",,sophie.wright@example.com
+0036,Oliver,Robinson,23-07-1987,0447-901-234,"3434 Maple Ave, Port Macquarie, NSW",,oliver.robinson@example.com
+0037,Mia,Harris,18-10-1994,0448-012-345,"3535 Cedar St, Mount Isa, QLD",,mia.harris@example.com
+0038,Ethan,Hall,06-04-1982,0449-123-456,"3636 Fir Ct, Merimbula, NSW",,ethan.hall@example.com
+0039,Lily,White,30-11-1990,0450-234-567,"3737 Pine Ln, Griffith, NSW",,lily.white@example.com
+0040,Jack,Jones,12-02-1988,0451-345-678,"3838 Elm Ave, Port Stephens, NSW",,jack.jones@example.com
+0041,Isabella,Garcia,24-08-1996,0452-456-789,"3939 Maple St, Karratha, WA",,isabella.garcia@example.com
+0042,Amelia,Lee,14-06-1992,0453-567-890,"4040 Cedar Ave, Alice Springs, NT",,amelia.lee@example.com
+0043,Liam,Wilson,08-11-1985,0454-678-901,"4141 Fir Ct, Launceston, TAS",,liam.wilson@example.com
+0044,Sophia,Young,30-09-1989,0455-789-012,"4242 Pine Ln, Bundaberg, QLD",,sophia.young@example.com
+0045,Ethan,Taylor,21-04-1995,0456-890-123,"4343 Elm St, Tamworth, NSW",,ethan.taylor@example.com
+0046,Grace,Clark,12-01-1991,0457-901-234,"4444 Maple Ave, Geraldton, WA",,grace.clark@example.com
+0047,Noah,Harris,25-07-1994,0458-012-345,"4545 Cedar St, Kalgoorlie, WA",,noah.harris@example.com
+0048,Chloe,Miller,05-03-1988,0459-123-456,"4646 Fir Ct, Coffs Harbour, NSW",,chloe.miller@example.com
+0049,James,Anderson,17-11-1982,0460-234-567,"4747 Pine Ln, Dubbo, NSW",,james.anderson@example.com
+0050,Emily,Davis,22-06-1990,0461-345-678,"4848 Elm Ave, Launceston, TAS",,emily.davis@example.com
+0051,Oliver,Johnson,14-04-1993,0462-456-789,"4949 Maple St, Broken Hill, NSW",,oliver.johnson@example.com
+0052,Sophie,Martin,30-08-1985,0463-567-890,"5050 Cedar Ave, Mount Isa, QLD",,sophie.martin@example.com
+0053,Jack,Taylor,09-02-1994,0464-678-901,"5151 Fir Ct, Merimbula, NSW",,jack.taylor@example.com
+0054,Isabella,Garcia,21-12-1991,0465-789-012,"5252 Pine Ln, Hobart, TAS",,isabella.garcia@example.com
+0055,Lucas,Brown,15-07-1986,0466-890-123,"5353 Elm St, Bundaberg, QLD",,lucas.brown@example.com
+0056,Mia,White,28-03-1995,0467-901-234,"5454 Maple Ave, Alice Springs, NT",,mia.white@example.com
+0057,Ethan,Lee,10-11-1983,0468-012-345,"5555 Cedar St, Goulburn, NSW",,ethan.lee@example.com
+0058,Grace,Wilson,20-09-1991,0469-123-456,"5656 Fir Ct, Mildura, VIC",,grace.wilson@example.com
+0059,Liam,Johnson,12-06-1989,0470-234-567,"5757 Pine Ln, Toowoomba, QLD",,liam.johnson@example.com
+0060,Chloe,Martinez,25-04-1992,0471-345-678,"5858 Elm Ave, Launceston, TAS",,chloe.martinez@example.com

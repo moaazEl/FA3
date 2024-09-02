@@ -1,0 +1,21 @@
+product_id,productname,specs,rev,retailprice
+01,Dell Inspiron 15,"Intel Core i5, 8GB RAM, 500GB HDD",175.0,499.99
+02,Apple iPhone 6,"A8 chip, 16GB Storage, 4.7-inch display",90.0,199.0
+03,Samsung Galaxy S5,"Snapdragon 801, 2GB RAM, 16GB Storage",150.0,299.99
+04,HP Pavilion 23xi,"23-inch IPS LED Monitor, Full HD",60.0,149.99
+05,Lenovo ThinkPad T450,"Intel Core i7, 8GB RAM, 256GB SSD",375.0,749.99
+06,Asus Transformer T100,"Intel Atom, 2GB RAM, 32GB Storage",140.0,349.99
+07,Microsoft Surface Pro 3,"Intel Core i5, 4GB RAM, 128GB SSD",450.0,899.99
+08,Acer Aspire E 15,"Intel Core i3, 4GB RAM, 1TB HDD",150.0,379.99
+09,LG G3,"Snapdragon 801, 3GB RAM, 32GB Storage",100.0,249.99
+10,Sony Xperia Z3,"Snapdragon 801, 3GB RAM, 32GB Storage",200.0,399.99
+11,Apple iPad Air 2,"A8X chip, 16GB Storage, 9.7-inch display",160.0,399.99
+12,Samsung Galaxy Tab S,"Exynos 5420, 3GB RAM, 16GB Storage",125.0,349.99
+13,Dell UltraSharp U2412M,"24-inch LED Monitor, 1920x1200",110.0,279.99
+14,Google Nexus 5,"Snapdragon 800, 2GB RAM, 16GB Storage",125.0,349.0
+15,HTC One M8,"Snapdragon 801, 2GB RAM, 32GB Storage",150.0,399.99
+16,Toshiba Satellite C55,"Intel Core i3, 4GB RAM, 500GB HDD",120.0,299.99
+17,Motorola Moto X (2014),"Snapdragon 801, 2GB RAM, 16GB Storage",100.0,299.99
+18,Amazon Kindle Fire HDX,"Snapdragon 800, 2GB RAM, 16GB Storage",85.0,229.99
+19,Apple MacBook Air (2014),"Intel Core i5, 4GB RAM, 128GB SSD",450.0,999.99
+20,Asus ZenBook UX305,"Intel Core M, 8GB RAM, 256GB SSD",300.0,699.99
