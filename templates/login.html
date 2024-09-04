@@ -6,10 +6,13 @@
  <div class="jumbotron jumbotron-fluid">
   <div class="container">
     <h1 class="display-4">Login</h1>
-	   {%if customers%}
+    {% if error_message %}
+      <p style="color: red;">{{ error_message }}</p>
+    {% endif %} 
+    {%if customers%}
 			{%for customers in customers%}
 			<tr>
-				<h2><td>Welcome - {{customers[0]}}</td></h2>
+				<h2><td>Welcome {{customers[2]}}, You can now start Browsing!!</td></h2>
 			</tr>   
 			{%endfor%}
 	
@@ -31,13 +34,13 @@
     <input type="text" class="form-control" id="email" aria-describedby="email" name = "email">
   </div>
   <div class="form-group">
-    <label for="exampleInputpassword1">Customer ID number</label>
-    <input type="customer_id" class="form-control" id="customer_id" name = "customer_id">
+    <label for="exampleInputpassword1">Password</label>
+    <input type="password" class="form-control" id="password" name = "password">
   </div>
   <div style="text-align: center;">
     <div class="form-group form-check">
 	  <label class="form-check-label" for="exampleCheck1"> Terms and Conditions </label>
-	  <input type="checkbox" class="form-check-input" id="checkbox1" name="checkbox1" style="margin-left: 10px;">
+	  <input type="checkbox" class="form-check-input" id="checkbox1" name="checkbox1" style="margin-left: 10px;" required>
     
   </div>
   <button type="submit" class="btn btn-primary"><h2>Login</h2></button>
