@@ -13,7 +13,7 @@ def home():
 def find_fprice(product_id):
     conn = sqlite3.connect('jer.db')
     cursor = conn.cursor()
-    cursor.execute("select retailprice from products where product_id = ?", (product_id))
+    cursor.execute("select retailprice from products where product_id = ?", (product_id,))
     result = cursor.fetchone()
     if result:
         fprice = result[0]  
@@ -24,7 +24,7 @@ def find_fprice(product_id):
 def find_trev(product_id):
     conn = sqlite3.connect('jer.db')
     cursor = conn.cursor()
-    cursor.execute("select rev from products where product_id = ?", (product_id))
+    cursor.execute("select rev from products where product_id = ?", (product_id,))
     result = cursor.fetchone()
     if result:
         trev = result[0]  
